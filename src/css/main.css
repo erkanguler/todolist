@@ -1,0 +1,95 @@
+.grid {
+  display: grid;
+}
+
+.grid1 {
+  grid-template-columns: 6fr 70fr 5fr;
+  align-items: center;
+}
+
+.grid1 input {
+  height: 16px;
+}
+
+.grid2 {
+  grid-template-columns: 85fr 15fr;
+  column-gap: 5px;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.app_c {
+  width: 400px;
+  padding: 20px 28px 20px 20px;
+  margin-top: 100px;
+  border-radius: 3px;
+  background-color: #cdeaff;
+}
+
+.app_c h1 {
+  color: #4c4c4c;
+}
+
+.list_c {
+  margin-top: 30px;
+}
+
+.list_c>div {
+  padding: 4px 0;
+}
+
+.ml6 {
+  margin-left: 6px;
+}
+
+.done {
+  text-decoration-line: line-through;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.text_wrap {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.btn_d {
+  height: 21px;
+  width: 22px;
+  border: none;
+  color: white;
+  margin-left: 2px;
+  border-radius: 3px;
+  background-color: #777;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.grid2 button:hover,
+.btn_d:hover {
+  cursor: pointer;
+  background-color: #555;
+}
+
+.grid2 input {
+  height: 22px;
+  border: 0.2px solid #888;
+  border-radius: 2px;
+}
+
+.grid2 input:focus {
+  outline: none;
+  border: 0.4px solid #666;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.grid2 button {
+  background-color: #777;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
